@@ -198,6 +198,9 @@ func createClusterRoleObjectProvisioner() *rbacv1.ClusterRole {
 					"get",
 					"list",
 					"watch",
+					"create",
+					"update",
+					"delete",
 				},
 			},
 			{
